@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #76b5c5;
+    font-family: "Roboto", sans-serif;
+    min-width: 730px;
+}
+
+.navbar{
+    background-color: #082a32;
+    width: 80%;
+    height: 40px;
+    margin: 20px auto 0 auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.navbar ul{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.navitem{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 8px;
+    box-shadow:  0px 0px 1px 0px white;
+}
+
+.navizq{
+    border-top-left-radius: 20px;
+}
+
+.navder{
+    border-top-right-radius: 20px;
+}
+
+.navitem:hover{
+    background-color: #114b57;
+}
+
+.navitem a, li{
+    text-decoration: none;
+    color: #17cad0;
+}
+
+.container{
+    background-color: #082a32;
+    margin: 0 auto;
+    padding: 30px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    color: #38bba8;
+    padding: 5%;
+    font-size: 8vw;
+    width: 45%;
+    cursor: pointer;
+    text-shadow: 0.01em 0.01em 0.5em white;
+}
+
+.titulo:hover{
+    color:antiquewhite;
+    text-shadow: 0.01em 0.01em 0.5em #38bba8;
+}
+
+.image{
+    width: 55%;
+}
+
+.image figcaption{
+    height: 10%;
+    max-width: 720px;
+    margin-top: -4px;
+    font-weight: bold;
+    padding-top: 1%;
+    background-color: #26c4d8;
+    color: #082a32;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 1vw;
+}
+
+.image img{
+    margin: 0 auto;
+    width: 100%;
+    height: 90%;
+    max-width: 720px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.biografia{
+    margin: 0 auto;
+    padding: 20px;
+    width: 98%;
+}
+
+.biografia h2{
+    font-size: 2vw;
+    color: rgb(12, 165, 219);
+    margin-bottom: 15px;
+}
+
+.biografia p{
+    color: #b9dce7;
+    font-size: 0.95em;
+}
+
+.biografia a{
+    color:rgb(12, 165, 219);
+}
+
+.biografia a:hover{
+    color:rgb(166, 205, 219)
+}
+
+.justify{
+    text-align: justify;
+}
+
+.albunes{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.albunes h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(20, 126, 165);
+    margin-bottom: 15px;
+}
+
+.albun{
+    width: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 250px;
+    max-height: 250px;
+    height: 250px;
+}
+
+.img-albun{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    box-shadow:  0px 0px 5px 1px white;
+}
+
+.img-albun:hover{
+    transform: scale(1.05);
+    box-shadow:  0px 0px 5px 1px #17cad0;
+}
+
+footer{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto 20px auto;
+    background-color: #082a32;
+    box-shadow: inset 0 0 10px 1px white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer h3{
+    color: #17cad0;
+    text-align: center;
+    margin: auto 0;
+}
